@@ -20,7 +20,7 @@ const LoginScreen = ({ navigation }) => {
   const [request, response, promptAsync] = useAuthRequest(
     {
       responseType: ResponseType.Token,
-      clientId: "446468cf1d28499fab9243733367662b",
+      clientId: "",
       scopes: [
         "user-read-currently-playing",
         "user-read-recently-played",
@@ -34,7 +34,7 @@ const LoginScreen = ({ navigation }) => {
       // In order to follow the "Authorization Code Flow" to fetch token after authorizationEndpoint
       // this must be set to false
       usePKCE: false,
-      redirectUri: "exp://192.168.0.5:19001",
+      redirectUri: "",
     },
     discovery
   );
