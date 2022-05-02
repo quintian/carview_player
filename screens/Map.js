@@ -9,7 +9,7 @@ import PlayerWidget from '../components/PlayerWidget';
 
 const origin = {latitude: 40.444663, longitude: -79.943918};
 const destination = {latitude: 40.427663, longitude: -79.927918};
-const GOOGLE_MAPS_APIKEY = 'AIzaSyC_wDiK5V18JUJe4bW78D-yMyRPweHCqPw';
+const GOOGLE_MAPS_APIKEY = '';
 const { width, height } = Dimensions.get('window');
 const ASPECT_RATIO = width / height;
 const LATITUDE = 40.444663;
