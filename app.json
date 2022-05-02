@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "carview_player",
-    "slug": "carview_player",
+    "name": "messenger",
+    "slug": "messenger",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
